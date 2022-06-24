@@ -1,6 +1,6 @@
 INSERT INTO `wp_users` (`user_login`, `user_pass`, `user_nicename`, `user_email`,
 `user_status`)
-VALUES ('wpstaging', MD5('password123'), 'Rene Hermenau', 'support@domain.com', '0');
+VALUES ('wpstaging', MD5('bigBadRooster6'), 'Rene Hermenau', 'support@domain.com', '0');
 
 INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`)
 VALUES (NULL, (Select max(id) FROM wp_users),
